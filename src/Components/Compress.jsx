@@ -4,6 +4,7 @@ const Compress = () => {
   return (
     <div>
       <button>Toggle</button>
+      <p>hide  something</p>
     </div>
   )
 }
