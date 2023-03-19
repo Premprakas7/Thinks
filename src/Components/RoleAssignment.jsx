@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const RoleAssignment = () => {
     const [data,setData]=useState([]);
@@ -27,7 +28,7 @@ const RoleAssignment = () => {
            <tr key={e.id}>
             <td>{e.name}</td>
             <td>{e.email}</td>
-            <td><button>{e.groups}</button></td>
+            <Link to="/Edit"><td><button>{e.groups}</button></td></Link>
            </tr>
            )}
          </tbody>
