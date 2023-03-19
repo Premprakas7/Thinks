@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Prem",
+      "email": "admin@gmail.com",
+      "groups": "Student",
+      "id": 1
+    },
+    {
+      "name": "Brahmastra",
+      "email": "eve.holt@reqres.in",
+      "groups": "Student",
+      "id": 2
+    },
+    {
+      "name": "Vikram",
+      "email": "prem_fw14_764@masai.school",
+      "groups": "instractor",
+      "id": 3
+    }
+  ]
+}

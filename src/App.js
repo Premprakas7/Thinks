@@ -1,10 +1,10 @@
 import './App.css';
-import Compress from './Components/Compress';
+import AllRoute from './Components/AllRoute';
 
 function App() {
   return (
     <div className="App">
-      <Compress/>
+      <AllRoute/>
     </div>
   );
 }
